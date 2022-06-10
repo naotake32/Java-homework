@@ -19,7 +19,7 @@ import java.util.Scanner;
 	    		
 	    		int num = scan.nextInt();
 	    		
-	    		for(int i; i < 11;i++) {
+	    		for(int i = 1; i < 11;i++) {
 	    			System.out.printf("%d * %d = %d%n", num, i, (num * i));
 	    		}
 	    		
